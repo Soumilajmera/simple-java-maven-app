@@ -14,10 +14,14 @@
 
   <name>demo-java-app</name>
 
-  <url>[http://maven.apache.org%3c/url]http://maven.apache.org</url>
+  <url>https://maven.pkg.github.com/Soumilajmera/simple-java-maven-app</url>
 
   <dependencies>
-
+   <dependency>
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>my-apps</artifactId>
+  <version>1.5-SNAPSHOT</version>
+</dependency>
     <dependency>
 
       <groupId>junit</groupId>
