@@ -21,6 +21,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-apps</artifactId>
   <version>1.5-SNAPSHOT</version>
+     <type>ep-eventflow-fragment</type>
 </dependency>
     <dependency>
 
