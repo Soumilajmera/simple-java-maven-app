@@ -136,7 +136,7 @@
 
                 <requireMavenVersion>
 
-                  <version>[3.5.4,)</version>
+                  <version>[3.5.2,)</version>
 
                 </requireMavenVersion>
 
