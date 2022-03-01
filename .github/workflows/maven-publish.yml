@@ -5,7 +5,7 @@ on:
   push
 jobs:
   publish:
-    runs-on: ubuntu-latest 
+    runs-on: self-hosted 
     permissions: 
       contents: read
       packages: write 
@@ -15,6 +15,7 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
+          
       - name: Publish package
         run: |
           mvn --batch-mode deploy
