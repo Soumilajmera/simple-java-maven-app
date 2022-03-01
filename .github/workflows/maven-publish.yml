@@ -33,6 +33,6 @@ jobs:
 
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn -B deploy --file pom.xml -s /home/ec2-user/.m2/settings.xml
+      run: mvn -B deploy --file /home/ec2-user/actions-runner/_work/simple-java-maven-app/simple-java-maven-app/pom.xml -s /home/ec2-user/.m2/settings.xml
       env:
         GITHUB_TOKEN: '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'
